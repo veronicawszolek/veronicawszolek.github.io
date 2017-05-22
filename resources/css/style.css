@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Helvetica", sans-serif;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0,9;
+  text-align: center;
+}
+
+header {
+  border-bottom: 1px solid seashell;
+  height: 69px;
+  width: 100%;
+  position: fixed;
+  align-items: center;
+  background-color: black;
+  z-index: 1;
+}
+
+header img {
+  height: 50px;
+  padding-left: 10px;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+nav {
+  text-align: right;
+  flex-grow: 1;
+}
+
+nav span {
+  display: inline-block;
+  padding: 22px 10px;
+}
+
+a {
+  color: seashell;
+}
+
+.main-content {
+  padding-top: 70px;
+  width: 1200px;
+  margin: auto;
+}
+
+#mission {
+  background-image: url("C:/cygwin64/home/Michał/the tea cosy/resources/images/img-mission-background.jpg");
+  height: 700px;
+  align-items: center;
+  margin: auto;
+}
+
+.text {
+  width: 100%;
+  background-color: black;
+}
+
+h2, h3, h4 {
+  padding: 10px;
+}
+
+h5 {
+  margin: 30px 0;
+}
+
+#tea {
+  width: 1000px;
+  padding-top: 70px;
+  margin: auto;
+  height: 700px;
+  flex-direction: column;
+}
+
+.product {
+  padding: 5px;
+}
+
+.product img {
+  height: 200px;
+  width: 300px;
+  margin: 10px;
+  display: block;
+}
+
+#locations {
+  width: 1200px;
+  height: 500px;
+  background-image: url("C:/cygwin64/home/Michał/the tea cosy/resources/images/img-locations-background.jpg");
+  padding-top: 70px;
+}
+
+.addresses {
+  width: 300px;
+  background-color: black;
+  opacity: 1;
+  margin: 5px 20px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px 0;
+}
+
+.addresses h4 {
+  margin: 10px 0;
+}
+
+#contact {
+  height:200px;
+}
+
+footer {
+  padding-left: 20px;
+  text-align: left;
+}
